@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuTrackingActivityWithFragment"
+          android:title="Tracking Activity With Fragment"
+          android:onClick="onMenuTrackingActivityWithFragment"
+          />
+    <item android:id="@+id/menuTrackingActivityOnly"
+          android:title="Tracking Activity Only"
+          android:onClick="onMenuTrackingActivityOnly"
+          />
+    <item android:id="@+id/menuStartTrackingService"
+          android:title="Start Tracking Service"
+          android:onClick="onMenuStartTrackingService"
+          />
+    <item android:id="@+id/menuStartTrackingService"
+          android:title="Stop Tracking Service"
+          android:onClick="onMenuStopTrackingService"
+          />
+    <item android:id="@+id/menuExit"
+          android:showAsAction="always"
+          android:title="Exit"
+          android:onClick="onExit"
+          android:icon="@android:drawable/ic_lock_power_off"/>
+</menu>
